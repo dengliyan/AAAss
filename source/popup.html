@@ -1,0 +1,230 @@
+<html>
+<head>
+	<title>设置</title>
+	<meta charset="utf-8">
+	<style type="text/css">
+body{
+	width: 120px;
+}
+a{
+text-decoration:none;
+}
+.pbut{
+    border: 1px #4BA44C solid;
+    background: #48B94A;
+    box-shadow: 0px 1px 2px rgba(0,0,0,0.1),
+    0px 1px 0px rgba(255,255,255,0.3) inset;
+    border-radius:3px;
+    padding: 0 20px;
+    line-height: 40px;
+    height: 40px;
+    color: #fff;
+    font-size: 14px;
+    display: inline-block;
+    text-align: center;
+    transition:all 0.2s;
+}
+
+.pbut img{
+    height:15px;
+    vertical-align: text-top;
+    margin-right: 5px;
+    padding-right: 5px;
+    border-right-width:1px;
+    border-right-style: solid;
+    border-right-color:rgba(0,0,0,0.1);
+
+}
+.pbut-block{
+    display: block;
+    width: 100%;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.pbut-xunlei{
+    border: 1px #6A9FEC solid;
+    background: #96BEF5;
+}
+.pbut-xunlei:hover{
+    background: #6A9FEC;
+}
+.pbut-xiaomi{
+    border: 1px #FF7A4D solid;
+    background: #FF936A;
+}
+.pbut-xiaomi:hover{
+    background: #FF7A4D;
+}
+.pbut-xiaomi:active{
+	background: #FF7A4D;
+}
+.pinp-block{
+    display: block;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.pbut-quanju{
+	border: 1px #4BA44C solid;
+    background: #6dda6f;6dda6f
+}
+.pbut-quanju:hover{
+	border: 1px #4BA44C solid;
+    background: #58ca5a;
+}
+.pbut-quanju i{
+    overflow: hidden;
+    position: relative;
+	display: inline-block;
+	height:15px;
+    vertical-align: text-top;
+    margin-right: 5px;
+    padding-right: 5px;
+    border-right-width:1px;
+    border-right-style: solid;
+    border-right-color:rgba(0,0,0,0.1);
+    width: 15px;
+    background: none;
+	/*background: url(icon15-off.png) no-repeat center;*/
+}
+.pbut-quanju i:after{
+        position: absolute;
+        left:0;top:0;
+        width: 1px;
+        height: 1px;
+        background: none;
+        content:'';
+        box-shadow:0px 0px 0px #fff,
+                   1px 1px 0px #fff,
+                   2px 2px 0px #fff,
+                   3px 3px 0px #fff,
+                   4px 4px 0px #fff,
+                   5px 5px 0px #fff,
+                   6px 6px 0px #fff,
+                   7px 7px 0px #fff,
+                   8px 8px 0px #fff,
+                   9px 9px 0px #fff,
+                   10px 10px 0px #fff,
+                   11px 11px 0px #fff,
+                   12px 12px 0px #fff,
+                   13px 13px 0px #fff,
+                   14px 14px 0px #fff,
+                   15px 15px 0px #fff,
+
+                   /*15px 0px 0px #fff,*/
+                   14px 1px 0px #fff,
+                   13px 2px 0px #fff,
+                   12px 3px 0px #fff,
+                   11px 4px 0px #fff,
+                   10px 5px 0px #fff,
+                   9px 6px 0px #fff,
+                   8px 7px 0px #fff,
+                   7px 8px 0px #fff,
+                   6px 9px 0px #fff,
+                   5px 10px 0px #fff,
+                   4px 11px 0px #fff,
+                   3px 12px 0px #fff,
+                   2px 13px 0px #fff,
+                   1px 14px 0px #fff,
+                   0px 15px 0px #fff;
+                   transition:all 0.2s;
+    }
+
+
+.pbut-quanju.on i:after{
+        position: absolute;
+        left:-2;top:5;
+        width: 1px;
+        height: 1px;
+        background: #fff;
+        content:'';
+        box-shadow: 0px  0px 0px #fff,
+                    1px  1px 0px #fff,
+                    2px  2px 0px #fff,
+                    3px  3px 0px #fff,
+                    4px  4px 0px #fff,
+                    5px  5px 0px #fff,
+                    6px  6px 0px #fff,
+                    7px  7px 0px #fff,
+                    8px  8px 0px rgba(255,255,255,0),
+                    9px  9px 0px rgba(255,255,255,0),
+                   10px 10px 0px rgba(255,255,255,0),
+                   11px 11px 0px rgba(255,255,255,0),
+                   12px 12px 0px rgba(255,255,255,0),
+                   13px 13px 0px rgba(255,255,255,0),
+                   14px 14px 0px rgba(255,255,255,0),
+                   15px 15px 0px rgba(255,255,255,0),
+   
+                   19px -5px 0px #fff,
+                   18px -4px 0px #fff,
+                   17px -3px 0px #fff,
+                   16px -2px 0px #fff,
+                   15px -1px 0px #fff,
+                   14px 0px  0px #fff,
+                   13px 1px  0px #fff,
+                   12px 2px  0px #fff,
+                   11px 3px  0px #fff,
+                   10px 4px  0px #fff,
+                   9px  5px  0px #fff,
+                   8px  6px  0px #fff,
+                   7px  7px  0px #fff,
+                   6px  8px  0px rgba(255,255,255,0),
+                   5px  9px  0px rgba(255,255,255,0),
+                   4px  10px 0px rgba(255,255,255,0);
+    }
+.pbut-quanju.on i{
+    background: none;
+}
+.butbox a{
+	margin: 5px 0;
+}
+.zanzhu{ height: 6px; overflow: hidden;transition:all 0.5s;font-size: 12px;}
+.zanzhu.show{ height: 45px;}
+
+.zanzhu a.zk-but{
+    height: 6px;
+    display: block;
+}
+.zanzhu a.zk-but img{
+    -webkit-transform:rotate(-90deg);
+    transform:rotate(-90deg);
+    transition:all 0.2s;
+}
+.zanzhu.show a.zk-but img{
+    -webkit-transform:rotate(0deg);
+    transform:rotate(0deg);
+}
+.zanzhu{
+    line-height: 20px;
+    color: #FB790A
+}
+.zanzhu img{
+    display: inline-block;
+    vertical-align: text-top;
+    padding: 0 2px;
+}
+abbr[title], abbr[data-original-title] {
+cursor: help;
+border-bottom: 1px dotted #aaa;
+}
+    </style>
+</head>
+<body>
+<div class="butbox">
+	<a href="https://d.miwifi.com/d2r/" class="pbut pbut-block pbut-xiaomi" title="打开d2r" target="_blank"><img src="images/icon15-w.png">手动下载</a>
+	<a href="http://yuancheng.xunlei.com/" class="pbut pbut-block pbut-xunlei" title="迅雷远程" target="_blank"><img src="images/icon15-xunlei.png">迅雷远程</a>
+	<a href="#" class="pbut pbut-block pbut-quanju on" title="开启全局后所有下载均跳转到小米路由下载页"><i></i>全局模式</a>
+</div>
+<div class="zanzhu">
+	<a href="#" class="zk-but" title="展开"><img src="images/a.png"></a>
+    <abbr title="壕赞助点零花钱吧"><img src="images/icon12-alipay.png"/></abbr>:<span>as88623@163.com</span><br/>
+    <abbr title="意见bug反馈"><img src="images/icon12-email.png"/></abbr>:<span>i@xioxin.com</span>
+</div>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="popup.js"></script>
+</body>
+</html>

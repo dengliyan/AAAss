@@ -1,0 +1,27 @@
+.slide-show-header h2 {
+width: 250px !important;
+}
+#MiDownFileButtom{
+	border: 1px #ff6000 solid;
+padding-left: 0;
+background: -webkit-linear-gradient(top,#ff8000,#ff6000);
+height: 30px;
+line-height: 30px;
+margin:4px 0;
+margin-right: 10px; 
+border-radius:3px;
+}
+#MiDownFileButtom:active{
+	background: -webkit-linear-gradient(top,#ff6000,#ff8000);
+}
+#MiDownFileButtom b{
+	padding: 0 10px;
+	background: none;
+	height: 30px;
+line-height: 30px;
+color:#fff;
+}
+
+.icon-xmdownload{
+	-webkit-filter: hue-rotate(170deg) saturate(2);
+}
