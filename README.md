@@ -6,3 +6,6 @@
 
 ##下载
 [下载插件1.6](http://git.oschina.net/xioxin/baiduYun-to-xiaoqiang/raw/master/crx/baiduYun%20to%20xiaoqiang1.6.crx)
+
+##使用方法以及详细介绍
+http://bbs.xiaomi.cn/thread-9827895-8-1.html
